@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.dobby</groupId>
+    <artifactId>dubbo-learn-showcase</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+
+    <modules>
+        <module>00-dubbo-api</module>
+        <module>01-dubbo-provider</module>
+        <module>01-dubbo-consumer</module>
+        <module>02-dubbo-provider-zk</module>
+        <module>02-dubbo-consumer-zk</module>
+        <module>03-dubbo-provider-version</module>
+        <module>03-dubbo-consumer-version</module>
+        <module>04-dubbo-provider-group</module>
+        <module>04-dubbo-consumer-group</module>
+
+        <module>dubbo-admin</module>
+
+    </modules>
+
+
+</project>

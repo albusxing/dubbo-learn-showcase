@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+       http://dubbo.apache.org/schema/dubbo
+       http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <!-- 提供者应用名称，该名称将在监控平台使用-->
+    <dubbo:application name="01-dubbo-provider"/>
+
+    <!--注册Service，其就是真正的服务提供者-->
+    <bean id="helloService" class="com.dobby.service.HelloServiceImpl"/>
+
+    <!-- 声明需要暴露的服务接口：使用直连的方式 -->
+   <!--  registry="N/A"表示当前服务不注册到注册中心，将采用点对点服务。 -->
+    <dubbo:service interface="com.dobby.service.HelloService"
+                   ref="helloService"
+                   registry="N/A"/>
+
+
+</beans>
