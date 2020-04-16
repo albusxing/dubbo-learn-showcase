@@ -9,7 +9,7 @@
  * [x]  Dubbo 服务分组
  * [ ]  Dubbo Admin 监控平台
  * [ ]  Spring Boot 中使用 Dubbo
- * [ ]  Dubbo 中如何使用 REST
+ * [x]  Dubbo 中如何使用 REST
  
 
 
