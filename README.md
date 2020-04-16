@@ -39,8 +39,15 @@ Dubbo 支持 zkclient 和 curator 两种 Zookeeper 客户端实现。
 
 当一个接口有多种实现时，可以用 group 区分，不同的分组之间可以相互引用。
 
+### Dubbo 中如何使用 REST
 
-### dubbo-admin
+参考：[在 Dubbo 中开发 REST 风格的远程调用](https://dubbo.apache.org/zh-cn/docs/user/rest.html)
+
+### 如何在 Spring Boot 中使用 Dubbo
+
+
+### dubbo-admin 监控平台
+
 
 
 

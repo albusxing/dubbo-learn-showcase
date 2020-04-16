@@ -7,7 +7,7 @@
        http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
 
     <!-- 消费方应用名，该名称将在监控平台使用 -->
-    <dubbo:application name="03-dubbo-consumer-version"  />
+    <dubbo:application name="04-dubbo-consumer-group"  />
 
     <!-- 连接 zk 注册中心-->
     <dubbo:registry address="zookeeper://127.0.0.1:2181"/>

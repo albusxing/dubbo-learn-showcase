@@ -11,21 +11,12 @@
 
     <artifactId>03-dubbo-consumer-version</artifactId>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <!-- dubbo版本号 -->
-        <dubbo-version>2.7.5</dubbo-version>
-    </properties>
-
     <dependencies>
 
         <!-- zk 客户端 -->
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-dependencies-zookeeper</artifactId>
-            <version>2.7.5</version>
             <type>pom</type>
         </dependency>
 
@@ -40,7 +31,6 @@
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo</artifactId>
-            <version>${dubbo-version}</version>
         </dependency>
 
     </dependencies>

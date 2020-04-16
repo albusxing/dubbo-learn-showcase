@@ -14,7 +14,7 @@
     <bean id="helloService" class="com.dobby.service.HelloServiceImpl"/>
 
     <!-- 连接 zk 注册中心 (单机) -->
-    <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
+    <dubbo:registry address="zookeeper://localhost:2181"/>
 
     <!-- 连接 zk 注册中心 (集群) -->
 <!--    <dubbo:registry address="zookeeper://127.0.0.1:2181?backup=127.0.0.2:2181,127.0.0.3:2181"/>-->
