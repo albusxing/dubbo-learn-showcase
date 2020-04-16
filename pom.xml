@@ -33,7 +33,7 @@
         <!-- dubbo版本号 -->
         <dubbo.version>2.7.5</dubbo.version>
         <dubbo.rpc.version>2.7.5</dubbo.rpc.version>
-        <zookeeper.version>3.4.13</zookeeper.version>
+        <zookeeper.version>3.4.14</zookeeper.version>
         <curator.version>4.0.1</curator.version>
         <resteasy.version>3.0.19.Final</resteasy.version>
         <curator-client.version>4.0.1</curator-client.version>
