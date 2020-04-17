@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>06-dubbo-spring-boot</artifactId>
-
+	<packaging>pom</packaging>
 	<modules>
 
 		<module>dubbo-provider-spring-boot</module>
