@@ -7,9 +7,9 @@
  * [x]  使用 Zookeeper 注册中心
  * [x]  Dubbo 多版本控制 
  * [x]  Dubbo 服务分组
- * [ ]  Dubbo Admin 监控平台
- * [ ]  Spring Boot 中使用 Dubbo
  * [x]  Dubbo 中如何使用 REST
+ * [ ]  Spring Boot 中使用 Dubbo
+ * [ ]  Dubbo Admin 监控平台
  
 
 
@@ -45,6 +45,7 @@ Dubbo 支持 zkclient 和 curator 两种 Zookeeper 客户端实现。
 
 ### 如何在 Spring Boot 中使用 Dubbo
 
+参考：[Spring Boot 中使用 Dubbo](https://github.com/apache/dubbo-spring-boot-project)
 
 ### dubbo-admin 监控平台
 

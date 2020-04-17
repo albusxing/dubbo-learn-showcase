@@ -19,9 +19,8 @@
         <module>03-dubbo-consumer-version</module>
         <module>04-dubbo-provider-group</module>
         <module>04-dubbo-consumer-group</module>
-
         <module>05-dubbo-provider-rest</module>
-        <module>dubbo-spring-boot</module>
+        <module>06-dubbo-spring-boot</module>
 
     </modules>
 
@@ -30,18 +29,19 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
-        <!-- dubbo版本号 -->
+        <!-- dubbo 版本号 -->
         <dubbo.version>2.7.5</dubbo.version>
         <dubbo.rpc.version>2.7.5</dubbo.rpc.version>
         <zookeeper.version>3.4.13</zookeeper.version>
         <curator.version>4.0.1</curator.version>
         <resteasy.version>3.0.19.Final</resteasy.version>
         <curator-client.version>4.0.1</curator-client.version>
-        <spring.version>4.3.16.RELEASE</spring.version>
+
         <tomcat.version>7.0.88</tomcat.version>
         <servlet.version>3.0.1</servlet.version>
         <jackson.version>2.5.2</jackson.version>
-
+        <!-- spring -->
+        <spring.version>4.3.16.RELEASE</spring.version>
         <spring-boot.version>2.2.6.RELEASE</spring-boot.version>
 
     </properties>
@@ -58,13 +58,13 @@
                 <scope>import</scope>
             </dependency>
 
-            <dependency>
-                <groupId>org.apache.dubbo</groupId>
-                <artifactId>dubbo-bom</artifactId>
-                <version>${dubbo.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>org.apache.dubbo</groupId>-->
+<!--                <artifactId>dubbo-bom</artifactId>-->
+<!--                <version>${dubbo.version}</version>-->
+<!--                <type>pom</type>-->
+<!--                <scope>import</scope>-->
+<!--            </dependency>-->
 
             <!-- Apache Dubbo  -->
             <dependency>
