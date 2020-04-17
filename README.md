@@ -49,6 +49,7 @@ Dubbo 支持 zkclient 和 curator 两种 Zookeeper 客户端实现。
 
 ### 07 dubbo-admin 监控平台
 
+参考：[Dubbo Admin 监控平台](https://github.com/apache/dubbo-admin/blob/develop/README_ZH.md)
 
 
 
