@@ -37,7 +37,7 @@
         <resteasy.version>3.0.19.Final</resteasy.version>
         <curator-client.version>4.0.1</curator-client.version>
 
-        <tomcat.version>7.0.88</tomcat.version>
+        <tomcat.version>7.0.100</tomcat.version>
         <servlet.version>3.0.1</servlet.version>
         <jackson.version>2.5.2</jackson.version>
         <!-- spring -->
